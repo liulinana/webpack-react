@@ -68,7 +68,7 @@ module.exports = {
                                 "loose": true
                             }
                         ],'react','es2015','stage-0'],
-                        plugins: [['import', {"libraryName": "antd", "style": "css"},'transform-class-properties','transform-decorators-legacy',]]
+                        plugins: [['transform-decorators-legacy','import', {"libraryName": "antd", "style": "css"},'transform-class-properties',]]
                     }
                 },
                 exclude : /node_modules/

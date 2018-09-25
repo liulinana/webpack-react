@@ -6,8 +6,8 @@ import Demo from '../../ReactApp';
 import Follow from '../mockPage/follow';
 import Tools from '../mockPage/tools';
 import allMenu from '../../model/menu';
-import Breadcrumbsss from '../breadcrumbName';
-import routerData from '../../model/routersData';
+import Breadcrumbs from '../breadcrumbName';
+import RouterData from '../../model/routersData';
 import Bundle from "../../router/AsyncLoader";
 
 const SubMenu = Menu.SubMenu;
@@ -76,16 +76,6 @@ const List = (props,ListContainer) => (
                                 </Col>
                             </Row>
                         </div>
-                        {/*<Menu*/}
-                            {/*theme="dark"*/}
-                            {/*mode="horizontal"*/}
-                            {/*defaultSelectedKeys={['2']}*/}
-                            {/*style={{ lineHeight: '64px' }}*/}
-                        {/*>*/}
-                            {/*<Menu.Item key="1"><Link to="/">Home</Link></Menu.Item>*/}
-                            {/*<Menu.Item key="2"><Link to="/about">About</Link></Menu.Item>*/}
-                            {/*<Menu.Item key="3"><Link to="/topics">Topics</Link></Menu.Item>*/}
-                        {/*</Menu>*/}
                     </Header>
                     <Layout>
                         <Frame width={200}
@@ -127,14 +117,9 @@ const List = (props,ListContainer) => (
                             </Menu>
                         </Frame>
                         <Layout style={{ padding: '0 24px 24px' }}>
-                            {/*<Breadcrumbsss/>*/}
-                            <Breadcrumb style={{ margin: '16px 0' }}>
-                                <Breadcrumb.Item>Home</Breadcrumb.Item>
-                                <Breadcrumb.Item>List</Breadcrumb.Item>
-                                <Breadcrumb.Item>App</Breadcrumb.Item>
-                            </Breadcrumb>
+                            <Breadcrumbs/>
                             <Content style={{ background: '#fff', padding: 24, margin: 0, minHeight: 280, overflow: 'scroll',position: 'relative'}}>
-                                {/*{routerData}*/}
+                                {/*<RouterData/>*/}
                                 <Route path="/home" component={Demo} />
                                 <Route path="/follow" component={Follow} />
                                 <Route path="/tools" component={Tools} />

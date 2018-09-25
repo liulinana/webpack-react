@@ -28,7 +28,7 @@
 //     }
 // }
 import React from 'react'
-import { HashRouter } from 'react-router-dom'
+import { HashRouter ,Switch} from 'react-router-dom'
 import { Route, Redirect } from 'react-router'
 import Frames from '.././page/layouts/frame';
 
@@ -42,9 +42,9 @@ export default class Routers extends React.Component {
     render() {
         return (
             <HashRouter>
-                <div>
+                <Switch>
                     <Route path="/" component={Frames} />
-                </div>
+                </Switch>
             </HashRouter>
         )
     }
