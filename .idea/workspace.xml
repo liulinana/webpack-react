@@ -2,127 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d23ddba5-234d-4fde-937c-012279fcb64c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/model/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/reduxType/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/login/login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/login/login.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/CHANGELOG.en-US.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/CHANGELOG.en-US.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/CHANGELOG.zh-CN.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/CHANGELOG.zh-CN.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/dist/antd-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/dist/antd-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/dist/antd-with-locales.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/dist/antd-with-locales.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/dist/antd-with-locales.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/dist/antd-with-locales.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/dist/antd-with-locales.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/dist/antd-with-locales.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/dist/antd.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/dist/antd.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/dist/antd.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/dist/antd.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/dist/antd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/dist/antd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/dist/antd.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/dist/antd.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/dist/antd.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/dist/antd.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/dist/antd.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/dist/antd.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/dist/antd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/dist/antd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/dist/antd.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/dist/antd.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/alert/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/alert/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/alert/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/alert/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/badge/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/badge/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/badge/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/badge/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/badge/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/badge/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/button/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/button/button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/button/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/button/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/button/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/button/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/card/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/card/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/card/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/card/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/carousel/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/carousel/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/carousel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/carousel/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/cascader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/cascader/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/collapse/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/collapse/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/date-picker/RangePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/date-picker/RangePicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/drawer/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/drawer/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/form/Form.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/form/Form.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/icon/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/icon/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/input-number/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/input-number/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/layout/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/layout/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/layout/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/layout/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/locale-provider/ru_RU.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/locale-provider/ru_RU.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/menu/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/menu/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/menu/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/menu/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/message/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/message/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/notification/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/notification/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/notification/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/notification/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/select/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/select/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/select/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/select/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/select/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/select/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/select/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/select/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/skeleton/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/skeleton/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/skeleton/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/skeleton/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/style/mixins/iconfont.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/style/mixins/iconfont.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/style/themes/default.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/style/themes/default.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/table/filterDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/table/filterDropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/table/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/table/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/table/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/table/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/table/style/size.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/table/style/size.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/tabs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/tabs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/tree-select/interface.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/tree-select/interface.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/tree/Tree.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/tree/Tree.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/upload/Upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/upload/Upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/upload/UploadList.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/upload/UploadList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/upload/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/upload/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/upload/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/upload/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/alert/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/alert/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/alert/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/alert/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/badge/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/badge/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/badge/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/badge/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/badge/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/badge/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/button/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/button/button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/button/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/button/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/button/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/button/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/card/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/card/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/card/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/card/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/carousel/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/carousel/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/carousel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/carousel/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/cascader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/cascader/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/collapse/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/collapse/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/date-picker/RangePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/date-picker/RangePicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/drawer/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/drawer/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/form/Form.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/form/Form.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/icon/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/icon/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/input-number/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/input-number/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/layout/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/layout/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/layout/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/layout/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/locale-provider/ru_RU.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/locale-provider/ru_RU.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/menu/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/menu/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/menu/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/menu/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/message/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/message/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/notification/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/notification/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/notification/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/notification/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/select/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/select/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/select/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/select/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/select/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/select/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/select/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/select/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/skeleton/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/skeleton/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/skeleton/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/skeleton/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/style/mixins/iconfont.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/style/mixins/iconfont.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/style/themes/default.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/style/themes/default.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/table/filterDropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/table/filterDropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/table/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/table/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/table/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/table/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/table/style/size.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/table/style/size.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/tabs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/tabs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/tree-select/interface.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/tree-select/interface.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/tree/Tree.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/tree/Tree.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/upload/Upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/upload/Upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/upload/UploadList.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/upload/UploadList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/upload/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/upload/style/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/upload/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/upload/style/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/menu/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/menu/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/version/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/version/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/version/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/version/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-proxy-middleware/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-proxy-middleware/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-proxy-middleware/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-proxy-middleware/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-proxy-middleware/lib/config-factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-proxy-middleware/lib/config-factory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-proxy-middleware/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-proxy-middleware/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ReactApp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReactApp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/routersData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/routersData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/breadcrumbName.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/breadcrumbName.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/layouts/frame.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/layouts/frame.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -153,28 +53,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="128" />
-          <entry key="jsx" value="245" />
+          <entry key="css" value="3" />
+          <entry key="js" value="581" />
+          <entry key="jsx" value="394" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="1" />
-          <entry key="JSX Harmony" value="5" />
-          <entry key="JavaScript" value="5" />
+          <entry key="CSS" value="4" />
+          <entry key="JSON" value="2" />
+          <entry key="JSX Harmony" value="9" />
+          <entry key="JavaScript" value="16" />
+          <entry key="Less" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSX Harmony" value="245" />
-          <entry key="JavaScript" value="128" />
+          <entry key="CSS" value="3" />
+          <entry key="JSX Harmony" value="394" />
+          <entry key="JavaScript" value="581" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="5" />
-          <entry key="json" value="1" />
-          <entry key="jsx" value="5" />
+          <entry key="css" value="4" />
+          <entry key="js" value="16" />
+          <entry key="json" value="2" />
+          <entry key="jsx" value="9" />
+          <entry key="less" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -184,31 +90,50 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-end-line="30" selection-end-column="52" />
+            <state relative-caret-position="433">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#796#822#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/menu.jsx">
+        <entry file="file://$PROJECT_DIR$/src/model/reducers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="105">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/store/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/actions/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -216,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/layouts/frame.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="122" column="65" selection-start-line="122" selection-start-column="63" selection-end-line="122" selection-end-column="67" />
+            <state relative-caret-position="298">
+              <caret line="122" column="65" selection-start-line="122" selection-start-column="65" selection-end-line="122" selection-end-column="65" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -228,8 +153,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ReactApp.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="163">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -238,61 +163,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/routersData.js">
+        <entry file="file://$PROJECT_DIR$/src/model/menu.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/breadcrumbName.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/page/mockPage/follow.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-77">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>username</find>
+      <find>http-proxy-middleware</find>
+      <find>react-router-redux</find>
+      <find>reducer</find>
+      <find>rootReducer</find>
+      <find>browserHistory</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -300,13 +189,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/router/router.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/page/breadcrumbName.jsx" />
         <option value="$PROJECT_DIR$/src/model/routersData.js" />
         <option value="$PROJECT_DIR$/src/model/menu.jsx" />
+        <option value="$PROJECT_DIR$/src/page/login/login.less" />
+        <option value="$PROJECT_DIR$/src/page/login/login.css" />
+        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/page/layouts/frame.jsx" />
+        <option value="$PROJECT_DIR$/src/page/login/login.jsx" />
+        <option value="$PROJECT_DIR$/src/model/reduxType/index.js" />
+        <option value="$PROJECT_DIR$/src/model/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/model/actions/index.js" />
+        <option value="$PROJECT_DIR$/src/model/store/index.js" />
         <option value="$PROJECT_DIR$/src/ReactApp.jsx" />
+        <option value="$PROJECT_DIR$/src/router/router.js" />
       </list>
     </option>
   </component>
@@ -353,14 +250,27 @@
               <item name="webpack-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webpack-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="mockPage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -374,6 +284,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/model" />
+      <recent name="$PROJECT_DIR$/src/model/store" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -398,12 +315,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537845204775</updated>
       <workItem from="1537845207302" duration="556000" />
-      <workItem from="1537845953516" duration="7080000" />
+      <workItem from="1537845953516" duration="25327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7636000" />
+    <option name="totallyTimeSpent" value="25883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -461,32 +378,44 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/router/AsyncLoader.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
-          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/AsyncLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/breadcrumbName.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/routersData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/login/login.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -499,44 +428,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/breadcrumbName.jsx">
+    <entry file="file://$PROJECT_DIR$/src/model/menu.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        <state relative-caret-position="-77">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-dom/cjs/react-dom.development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="17316" column="2" selection-start-line="17316" selection-start-column="2" selection-end-line="17316" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/login/login.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/reduxType/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/redux-logger/dist/redux-logger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6671" selection-start-column="6671" selection-end-column="6671" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-end-line="30" selection-end-column="52" />
+        <state relative-caret-position="433">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#796#822#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/routersData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/menu.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page/layouts/frame.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="122" column="65" selection-start-line="122" selection-start-column="63" selection-end-line="122" selection-end-column="67" />
+        <state relative-caret-position="298">
+          <caret line="122" column="65" selection-start-line="122" selection-start-column="65" selection-end-line="122" selection-end-column="65" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -545,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReactApp.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="163">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
