@@ -14,6 +14,7 @@ const logger = createLogger({
     logger: console,
     collapsed: true
 })
+
 const createStoreWithMiddleware = process.env.NODE_ENV === 'development' ? applyMiddleware(
     middleware, thunk
 )(createStore) : applyMiddleware(
@@ -24,4 +25,5 @@ const configureStore = (initialState) => {
     const store = createStoreWithMiddleware(reducer, initialState)
     return store
 }
+
 export default configureStore
