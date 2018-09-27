@@ -89,7 +89,7 @@ const List = (props,ListContainer) => (
                                 mode="inline"
                                 style={{ height: 670, borderRight: 0, overflow: 'scroll', }}
                                 theme={this.state.theme}
-                                defaultOpenKeys={['']}
+                                defaultOpenKeys={['home']}
                                 selectedKeys={[this.state.current]}
                                 onClick={this.handleClick}
                             >

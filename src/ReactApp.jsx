@@ -17,9 +17,8 @@ export default class Demo extends Component{
     render () {
         return (
             <Form className={styles.red}>
-                <Button type='primary'>查询</Button>
-                <br/>
-                {this.state.aa}
+                {/*{this.state.aa}*/}
+                <img src={require('./images/u=1003924167,1029390060&fm=26&gp=0.jpg')} height='200' alt="logo" className={styles.lastPic} />
                 {/*{this.props.example.title}*/}
             </Form>
         )

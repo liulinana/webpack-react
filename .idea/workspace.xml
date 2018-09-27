@@ -2,27 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d23ddba5-234d-4fde-937c-012279fcb64c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/reduxType/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/login/login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/login/login.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/u=1003924167,1029390060&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mime" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/es/menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/es/menu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/menu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/version/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/version/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/antd/lib/version/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/antd/lib/version/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-proxy-middleware/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-proxy-middleware/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-proxy-middleware/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-proxy-middleware/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-proxy-middleware/lib/config-factory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-proxy-middleware/lib/config-factory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-proxy-middleware/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-proxy-middleware/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/less/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/less/node_modules/.bin/mime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime/mime.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime/mime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime/src/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime/src/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime/src/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime/src/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime/types.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/.bin/mime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/Mime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/lite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/src/README_js.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/src/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/src/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/types/other.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/types/standard.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ReactApp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReactApp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/layouts/frame.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/layouts/frame.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/Demo-m.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/Demo-m.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -53,47 +69,66 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="3" />
-          <entry key="js" value="581" />
-          <entry key="jsx" value="394" />
+          <entry key="css" value="45" />
+          <entry key="js" value="590" />
+          <entry key="jsx" value="425" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
+          <entry key="CSS" value="5" />
+          <entry key="Image" value="4" />
           <entry key="JSON" value="2" />
           <entry key="JSX Harmony" value="9" />
-          <entry key="JavaScript" value="16" />
+          <entry key="JavaScript" value="18" />
           <entry key="Less" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="3" />
-          <entry key="JSX Harmony" value="394" />
-          <entry key="JavaScript" value="581" />
+          <entry key="CSS" value="45" />
+          <entry key="JSX Harmony" value="425" />
+          <entry key="JavaScript" value="590" />
+          <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
-          <entry key="js" value="16" />
+          <entry key="css" value="5" />
+          <entry key="jpeg" value="1" />
+          <entry key="js" value="18" />
           <entry key="json" value="2" />
           <entry key="jsx" value="9" />
           <entry key="less" value="1" />
+          <entry key="lock" value="1" />
+          <entry key="log" value="1" />
+          <entry key="png" value="3" />
+          <entry key="rar" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Unnamed">
+      <favorite_root url="file://$PROJECT_DIR$/../../屏幕快照 2018-08-07 下午3.52.00.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="478">
+              <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#796#822#0" expanded="true" />
@@ -103,46 +138,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/reducers/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/store/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/actions/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page/layouts/frame.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="122" column="65" selection-start-line="122" selection-start-column="65" selection-end-line="122" selection-end-column="65" />
+            <state relative-caret-position="-227">
+              <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -153,8 +152,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ReactApp.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="315">
+              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -163,10 +162,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/Demo-m.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/menu.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="118">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -192,18 +212,19 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/page/breadcrumbName.jsx" />
         <option value="$PROJECT_DIR$/src/model/routersData.js" />
-        <option value="$PROJECT_DIR$/src/model/menu.jsx" />
         <option value="$PROJECT_DIR$/src/page/login/login.less" />
         <option value="$PROJECT_DIR$/src/page/login/login.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/page/layouts/frame.jsx" />
         <option value="$PROJECT_DIR$/src/page/login/login.jsx" />
         <option value="$PROJECT_DIR$/src/model/reduxType/index.js" />
         <option value="$PROJECT_DIR$/src/model/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/model/actions/index.js" />
         <option value="$PROJECT_DIR$/src/model/store/index.js" />
-        <option value="$PROJECT_DIR$/src/ReactApp.jsx" />
         <option value="$PROJECT_DIR$/src/router/router.js" />
+        <option value="$PROJECT_DIR$/src/page/layouts/frame.jsx" />
+        <option value="$PROJECT_DIR$/src/model/menu.jsx" />
+        <option value="$PROJECT_DIR$/src/style/Demo-m.css" />
+        <option value="$PROJECT_DIR$/src/ReactApp.jsx" />
       </list>
     </option>
   </component>
@@ -246,32 +267,6 @@
               <item name="webpack-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="webpack-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webpack-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webpack-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -285,9 +280,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src/model" />
       <recent name="$PROJECT_DIR$/src/model/store" />
     </key>
@@ -315,29 +315,49 @@
       <option name="presentableId" value="Default" />
       <updated>1537845204775</updated>
       <workItem from="1537845207302" duration="556000" />
-      <workItem from="1537845953516" duration="25327000" />
+      <workItem from="1537845953516" duration="31083000" />
     </task>
+    <task id="LOCAL-00001" summary="redux">
+      <created>1537957576982</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537957576982</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25883000" />
+    <option name="totallyTimeSpent" value="31639000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003524" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" weight="0.28794327" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -377,17 +397,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="redux" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/router/AsyncLoader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -425,13 +439,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/menu.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -480,16 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -510,10 +507,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/html5-canvas-3d-model-camera.rar">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/css3-pretty-cat-face.rar">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../屏幕快照 2018-08-07 下午3.52.00.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/airdrop.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/屏幕快照 2018-08-23 上午9.24.32.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/babel-cli/lib/_babel-node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="116" column="2" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/layouts/frame.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-227">
+          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="478">
+          <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#796#822#0" expanded="true" />
@@ -521,20 +579,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/layouts/frame.jsx">
+    <entry file="file://$PROJECT_DIR$/src/style/Demo-m.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="122" column="65" selection-start-line="122" selection-start-column="65" selection-end-line="122" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2370" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn-error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReactApp.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="315">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
