@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { Form, Input, Button, notification, Icon, message } from 'antd'
+import { Form, Input, Button, notification, Icon, message, Row, Col } from 'antd'
 import createHistory from 'history/createHashHistory'
 
 import '../../style/login.less'
@@ -18,13 +18,20 @@ export default class Login extends Component {
         e.preventDefault();
         let n = this.props.form.getFieldsValue().username;
         let p = this.props.form.getFieldsValue().password;
-        if (n === '123' && p === '123') {
-            // 表单的路由处理
-            message.success("登陆成功!")
-            this.props.history.push('/frame');
-        } else {
-            this.openNotificationWithIcon('info');
-        }
+        this.props.form.validateFields((err, values) => {
+            if (!err) {
+                if (n === '123' && p === '123') {
+                    // 表单的路由处理
+                    message.success("登陆成功!")
+                    this.props.history.push('/frame');
+                } else if (n === '123' && p !== '123') {
+                    message.error("请输入正确的密码！")
+                } else {
+                    message.error("请输入正确的用户名字！")
+                }
+            }
+        });
+
     };
 
     // 返回一个弹框对象，提示用户名和密码
@@ -62,6 +69,10 @@ export default class Login extends Component {
                                 )}
                             </FormItem>
                             <Button type="primary" htmlType="submit" className="loginBtn">Login</Button>
+                            <Row style={{marginTop: 20, marginLeft: 15, color:"#aaaaaa"}}>
+                                <Col span={14}>username:123 </Col>
+                                <Col span={9}>password:123 </Col>
+                            </Row>
                         </Form>
                     </div>
                 </div>
