@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Menu, Icon, Switch, Layout, Breadcrumb, Row, Col} from 'antd';
+import { Menu, Icon, Switch, Layout, Tooltip, Row, Col} from 'antd';
 import styles from "../../style/Demo-m.css";
-import {BrowserRouter, Link, Route, withRouter,} from "react-router-dom";
+import {BrowserRouter, Link, Route, withRouter} from "react-router-dom";
 import Demo from '../../ReactApp';
 import Follow from '../mockPage/follow';
 import Tools from '../mockPage/tools';
@@ -75,6 +75,11 @@ const List = (props,ListContainer) => (
                                     />
                                 </Col>
                             </Row>
+                        </div>
+                        <div style={{color:'white',marginLeft:'98%'}}>
+                            <Tooltip title="退出登录">
+                                <Link to={`/`}><Icon type="logout" /></Link>
+                            </Tooltip>
                         </div>
                     </Header>
                     <Layout>

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { Form, Button, Input } from 'antd';
 import styles from './style/Demo-m.css';
-import {example} from './model/actions/index'
-// import {Containerization} from './compents/PublicComponent';
+import {example} from './model/actions/index';
+import {bindActionCreators} from 'redux';
+import {Containerization} from './compents/PublicComponent';
 import connect from "react-redux/es/connect/connect";
 
-// @Containerization(state => ({
-//     selectsData: state.example.selectsData,
-// }))
+@Containerization(state => ({
+    selectsData: state.example.selectsData,
+}))
 class Demo extends Component{
 
     constructor(props){
@@ -18,7 +19,10 @@ class Demo extends Component{
         }
     }
 
+    componentWillMount(){
+        console.log('this.props.selectsData',this.props.selectsData)
 
+}
     render () {
         return (
             <Form className={styles.red}>
@@ -37,7 +41,7 @@ const mapStateToProps = (state) =>{
 }
 const mapDispatchToProps = (dispatch,ownProps) =>{
     return {
-        actions: bindActionCreators(example, dispatch)
+        actions: bindActionCreators({example}, dispatch)
     }
 }
 export default connect(
