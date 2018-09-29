@@ -11,7 +11,7 @@ const history = createHistory();
 @Form.create()
 export default class Login extends Component {
     componentDidMount() {
-        this.openNotificationWithIcon('info')
+        // this.openNotificationWithIcon('info')
     }
 
     handleSubmit = (e) => {
@@ -51,7 +51,8 @@ export default class Login extends Component {
             <div className="loginpagewrap">
                 <img src={require('../../images/u=989126329,3795867150&fm=26&gp=0.jpg')} width="100%" height="100%" alt="logo"/>
                 <div className="box">
-                    <p>只有小仙女本人才能登陆的系统</p>
+                    <img src={require('../../images/u=2480352879,2590353252&fm=26&gp=0.jpg')} style={{float:'top'}} height='200' alt="logo" className={styles.lastPic} />
+                    <p>小仙女才能登陆的系统</p>
                     <div className="loginWrap">
                         <Form onSubmit={this.handleSubmit}>
                             <FormItem>
