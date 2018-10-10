@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Menu, Icon, Switch, Layout, Tooltip, Row, Col} from 'antd';
 import styles from "../../style/Demo-m.css";
-import {BrowserRouter, Link, Route, withRouter} from "react-router-dom";
-import Demo from '../../ReactApp';
-import Follow from '../mockPage/follow';
-import Tools from '../mockPage/tools';
+import {Link, Route, withRouter} from "react-router-dom";
 import allMenu from '../../model/menu';
 import Breadcrumbs from '../breadcrumbName';
 import RouterData from '../../model/routersData';
 import Bundle from "../../router/AsyncLoader";
+import Follow from 'bundle-loader?lazy!.././mockPage/follow';
+import Demo from 'bundle-loader?lazy!../../ReactApp';
+import Tools from 'bundle-loader?lazy!../mockPage/tools';
 
 const SubMenu = Menu.SubMenu;
 const { Header, Content, Sider: Frame } = Layout;
@@ -94,7 +94,7 @@ const List = (props,ListContainer) => (
                                 mode="inline"
                                 style={{ height: 670, borderRight: 0, overflow: 'scroll', }}
                                 theme={this.state.theme}
-                                defaultOpenKeys={['home']}
+                                defaultOpenKeys={['']}
                                 selectedKeys={[this.state.current]}
                                 onClick={this.handleClick}
                             >
@@ -124,17 +124,15 @@ const List = (props,ListContainer) => (
                         <Layout style={{ padding: '0 24px 24px' }}>
                             <Breadcrumbs/>
                             <Content style={{ background: '#fff', padding: 24, margin: 0, minHeight: 280, overflow: 'scroll',position: 'relative'}}>
-                                {/*<RouterData/>*/}
-                                <Route path="/home" component={Demo} />
-                                <Route path="/follow" component={Follow} />
-                                <Route path="/tools" component={Tools} />
-                                {/*<Route path="/music" component={Music} />*/}
-                                {/*<Route path="/todo" component={Todo} />*/}
-                                {/*<Route path="/album" component={Album} />*/}
-                                {/*<Route path="/editor" component={Editor} />*/}
-                                {/*<Route path="/todoList" component={TodoList} />*/}
-                                {/*<Route path="/searchEngine" component={Search} />*/}
-                                {/*<Route path="/waterfall" component={Waterfall} />*/}
+                                <Route path="/frame/follow"
+                                       component={(props) => List(props, Follow)}
+                                />
+                                <Route path="/frame/home"
+                                       component={(props) => List(props, Demo)}
+                                />
+                                <Route path="/frame/tool/tools"
+                                       component={(props) => List(props, Tools)}
+                                />
                             </Content>
                         </Layout>
                     </Layout>

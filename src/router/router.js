@@ -1,45 +1,21 @@
-// import React from 'react';
-// import {BrowserRouter,Route,Switch } from 'react-router-dom'
-// import Bundle from './AsyncLoader';
-// import Frames from 'bundle-loader?lazy!.././page/layouts/frame';
-//
-// const List = (props,ListContainer) => (
-//     <Bundle load={ListContainer}>
-//         {(List) => <List />}
-//     </Bundle>
-// )
-//
-// export default class Routers extends React.Component {
-//
-//     constructor(props) {
-//         super(props);
-//     }
-//
-//     render() {
-//         return (
-//             <BrowserRouter>
-//                 <Switch>
-//                     <Route exact path="/"
-//                            component={(props) => List(props, Frames)}
-//                     />
-//                 </Switch>
-//             </BrowserRouter>
-//         )
-//     }
-// }
 import React from 'react';
+import Bundle from './AsyncLoader';
 import {Provider} from 'react-redux';
 import store from '.././model/store';
-import Router from 'react-router-dom/Router';
-import { Route, Redirect,browserHistory,Switch } from 'react-router';
-import Frames from '.././page/layouts/frame';
-import Login from '../page/login/login';
+import { Route, Redirect,Switch, } from 'react-router';
+import {BrowserRouter } from 'react-router-dom'
+import Login from 'bundle-loader?lazy!.././page/login/login';
+import Frames from 'bundle-loader?lazy!.././page/layouts/frame';
 import createHistory from 'history/createBrowserHistory';
-import { syncHistoryWithStore } from 'react-router-redux'
 
 
 const history = createHistory()
 const location = history.location
+const List = (props,ListContainer) => (
+    <Bundle load={ListContainer}>
+        {(List) => <List {...props} />}
+    </Bundle>
+)
 
 export default class Routers extends React.Component {
 
@@ -50,12 +26,16 @@ export default class Routers extends React.Component {
     render() {
         return (
             <Provider store={store()}>
-                <Router history={history}>
+                <BrowserRouter >
                     <Switch>
-                    <Route exact={true} path="/" component={Login} />
-                    <Route path="/frame" component={Frames} />
+                        <Route exact={true} path="/"
+                               component={(props) => List(props, Login)}
+                        />
+                        <Route path="/frame"
+                               component={(props) => List(props, Frames)}
+                        />
                     </Switch>
-                </Router>
+                </BrowserRouter>
             </Provider>
         )
     }

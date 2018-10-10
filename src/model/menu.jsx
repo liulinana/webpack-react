@@ -1,7 +1,7 @@
 const allMenu = [
     {
         name: '首页',
-        url: 'home',
+        url: 'frame/home',
         icon: 'home',
     }, {
         name: '音乐模块',
@@ -12,10 +12,10 @@ const allMenu = [
         ]
     }, {
         name: '工具模块',
-        url: 'tool',
+        url: 'frame/tool',
         icon: 'tool',
         children: [
-            { name: '小应用', url: 'tools' },
+            { name: '小应用', url: 'frame/tool/tools' },
             { name: '富文本编辑器', url: 'editor' },
             { name: '待办事项', url: 'todoList' },
         ],
@@ -43,7 +43,7 @@ const allMenu = [
         ],
     }, {
         name: '项目地址',
-        url: 'follow',
+        url: 'frame/follow',
         icon: 'heart-o',
     }]
 
