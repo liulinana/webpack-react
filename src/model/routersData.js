@@ -1,29 +1,28 @@
-// import {Route} from "react-router-dom";
-// import Demo from "../ReactApp";
-// import Follow from "../page/mockPage/follow";
-// import React , { Component }from "react";
-// import Tools from "../page/mockPage/tools";
-// import { HashRouter ,Switch} from 'react-router-dom'
+// import React, { Component } from 'react';
+// import { Menu, Icon, Switch, Layout, Tooltip, Row, Col} from 'antd';
+// import styles from "../../style/Demo-m.css";
+// import {Link, Route, withRouter} from "react-router-dom";
+// import Bundle from "../../router/AsyncLoader";
+// import Follow from 'bundle-loader?lazy!.././mockPage/follow';
+// import Demo from 'bundle-loader?lazy!../../ReactApp';
+// import Tools from 'bundle-loader?lazy!../mockPage/tools';
+//
+// const List = (props,ListContainer) => (
+//     <Bundle load={ListContainer}>
+//         {(List) => <List />}
+//     </Bundle>
+// )
 //
 // const routerData = [
-//     {
-// },
+// {<Route path="/frame/follow"
+//             component={(props) => List(props, Follow)}
+//     />},
+// {<Route path="/frame/home"
+//         component={(props) => List(props, Demo)}
+//         />},
 // {
-// },
-// {
-// }]
-//
-//
-//
-// export default class RouterData extends Component{
-//     render () {
-//         return {
-//             <Switch>
-//                 <Route path="/home" component={Demo} />
-//                 <Route path="/follow" component={Follow} />
-//                 <Route path="/tools" component={Tools} />
-//             </Switch>
-//
-//     }
-//     }
+//     <Route path="/frame/tool/tools"
+//            component={(props) => List(props, Tools)}
+//     />
 // }
+// ]

@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Switch, Link, withRouter } from 'react-router-dom';
 import { Breadcrumb} from 'antd';
-// import Routers from '../router/router';
-//
+
+
 const breadcrumbNameMap = {
-    '/home': '首页',
-    '/follow': '项目地址',
-    '/tool':'工具模块',
-    '/tools': '小应用',
-    '/apps/1/detail': 'Detail',
-    '/apps/2/detail': 'Detail',
+    '/frame/home': '首页',
+    '/frame/follow': '项目地址',
+    '/frame/tool':'工具模块',
+    '/frame/tool/tools': '小应用',
 };
+
 @withRouter
 export default class Breadcrumbs extends Component{
 
