@@ -2,7 +2,13 @@
 //     entry: './src/index.js'
 // };
 const path=require('path');
-const webpack = require('webpack')
+const webpack = require('webpack');
+let WebpackDevServer = require("webpack-dev-server");
+var CURRENT_PATH = path.resolve(__dirname); // 获取到当前目录
+var ROOT_PATH = path.join(__dirname, '../'); // 项目根目录
+var MODULES_PATH = path.join(ROOT_PATH, './node_modules'); // node包目录
+var BUILD_PATH = path.join(ROOT_PATH, './dist'); // 最后输出放置公共资源的目录
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 let HtmlWebpackPlugin = require('html-webpack-plugin'); //自动生成 index.html
 let OpenBrowserPlugin = require('open-browser-webpack-plugin');
 let ExtractTextPlugin = require('extract-text-webpack-plugin');  //css单独打包
@@ -76,7 +82,7 @@ module.exports = {
             {
                 test: /\.less$/,
                 exclude: /node_modules/,
-                use : [{loader : "style-loader"},{loader : "css-loader"},{loader : "less-loader"}]
+                use :[{loader : "style-loader"},{loader : "css-loader"},{loader : "less-loader"}]
             },
             {
                 test: /-m\.css$/,
@@ -128,7 +134,7 @@ module.exports = {
         // html 模板插件
         new HtmlWebpackPlugin({
             title: "This is the result",
-            filename: "./index.html",
+            filename: "index.html",
             inject: "body",
             favicon: "",
             minify: {
@@ -139,7 +145,7 @@ module.exports = {
             hash: true,
             cache: true,
             showErrors: true,
-            chunks: "",
+            chunks: ["main"],
             chunksSortMode: "auto",
             excludeChunks: "",
             xhtml: false,
@@ -177,5 +183,14 @@ module.exports = {
         //服务器的IP地址，可以使用IP也可以使用localhost
         compress:true,
         //服务端压缩是否开启
-    }
+        proxy: {
+            "/api": {
+                "target": "http://172.16.138.139:9581",
+                pathRewrite: {"^/api": ""},
+                secure: false,
+                changeOrigin: true
+            },
+        }
+    },
+
 }
